@@ -29,7 +29,7 @@ public class Main {
         si intentamos poner menos espacios, como 3, siempre va a sacar los
         mínimos que haya que mostrar*/
         
-        System.out.printf("El cambio de hoy es 1€ por %08.2f$.\n ", CAMBIO_EURO_DOLAR);
-
+        System.out.printf("El cambio de hoy es 1€ por %08.2f$. "
+                + "(Añadimos 4 ceros por la izquierda)%n%n", CAMBIO_EURO_DOLAR);
     }
 }
